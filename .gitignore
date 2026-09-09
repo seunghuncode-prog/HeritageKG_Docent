@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 환경변수
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local secrets and notebook caches
+.env.*
+!.env.example
+*.pem
+*.key
+.ipynb_checkpoints/
